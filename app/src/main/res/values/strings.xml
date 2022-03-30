@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FilmSpace</string>
+    <string name="account_action">Account action</string>
+    <string name="information_action">Information action</string>
+    <string name="bottom_navigation_home">Home</string>
+    <string name="bottom_navigation_favourite">Favourites</string>
+    <string name="bottom_navigation_search">Search</string>
+    <string name="bottom_navigation_watchlist">Watchlist</string>
 </resources>
