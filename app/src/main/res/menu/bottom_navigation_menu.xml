@@ -5,15 +5,11 @@
         android:icon="@drawable/ic_home"
         android:title="@string/bottom_navigation_home" />
     <item
-        android:id="@+id/favourite_fragment"
-        android:icon="@drawable/ic_favourite"
-        android:title="@string/bottom_navigation_favourite" />
+        android:id="@+id/explore_fragment"
+        android:icon="@drawable/ic_compass_discover_line"
+        android:title="@string/bottom_navigation_explore" />
     <item
-        android:id="@+id/watchlist_fragment"
-        android:icon="@drawable/ic_watch_list"
-        android:title="@string/bottom_navigation_watchlist" />
-    <item
-        android:id="@+id/search_fragment"
-        android:icon="@drawable/ic_search"
-        android:title="@string/bottom_navigation_search" />
+        android:id="@+id/library_fragment"
+        android:icon="@drawable/ic_folders_line"
+        android:title="@string/bottom_navigation_library" />
 </menu>

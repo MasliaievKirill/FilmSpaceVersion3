@@ -6,4 +6,6 @@
     <string name="bottom_navigation_favourite">Favourites</string>
     <string name="bottom_navigation_search">Search</string>
     <string name="bottom_navigation_watchlist">Watchlist</string>
+    <string name="bottom_navigation_explore">Explore</string>
+    <string name="bottom_navigation_library">Library</string>
 </resources>

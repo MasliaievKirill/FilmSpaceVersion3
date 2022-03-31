@@ -6,12 +6,21 @@
         android:id="@+id/action_account"
         android:icon="@drawable/ic_account_circle_line"
         android:title="@string/account_action"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
 
     <item
         android:id="@+id/action_information"
         android:icon="@drawable/ic_information_line"
         android:title="@string/information_action"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/information_action"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
 
 </menu>

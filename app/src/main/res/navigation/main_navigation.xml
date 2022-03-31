@@ -11,18 +11,14 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment
-        android:id="@+id/favourite_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.FavouriteFragment"
-        android:label="fragment_favourite"
-        tools:layout="@layout/fragment_favourite" />
+        android:id="@+id/explore_fragment"
+        android:name="com.masliaiev.filmspace.presentation.fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
     <fragment
-        android:id="@+id/watchlist_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.WatchlistFragment"
-        android:label="fragment_watchlist"
-        tools:layout="@layout/fragment_watchlist" />
-    <fragment
-        android:id="@+id/search_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.SearchFragment"
-        android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        android:id="@+id/library_fragment"
+        android:name="com.masliaiev.filmspace.presentation.fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+
 </navigation>
