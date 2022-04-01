@@ -3,22 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/main_fragment">
+    app:startDestination="@+id/home">
 
-    <fragment
-        android:id="@+id/main_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
-    <fragment
-        android:id="@+id/explore_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.ExploreFragment"
-        android:label="fragment_explore"
-        tools:layout="@layout/fragment_explore" />
-    <fragment
-        android:id="@+id/library_fragment"
-        android:name="com.masliaiev.filmspace.presentation.fragments.LibraryFragment"
-        android:label="fragment_library"
-        tools:layout="@layout/fragment_library" />
+    <include app:graph= "@navigation/home"/>
+    <include app:graph= "@navigation/explore"/>
+    <include app:graph= "@navigation/library"/>
+
 
 </navigation>

@@ -20,7 +20,8 @@
         android:id="@+id/action_search"
         android:icon="@drawable/ic_search"
         android:title="@string/information_action"
-        app:showAsAction="ifRoom"
-        android:orderInCategory="1"/>
+        app:showAsAction="always|collapseActionView"
+        android:orderInCategory="1"
+        app:actionViewClass="android.widget.SearchView"/>
 
 </menu>
